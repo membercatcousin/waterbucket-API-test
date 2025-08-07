@@ -1,0 +1,19 @@
+variables:
+
+_target to kick
+_target to kick ping
+
+on_run:
+
+set.var.target to kick(random player)
+get.ping.of.target to kick.for.var.target to kick ping
+
+if: target to kick ping < 5000
+
+/kick target to kick ping too high;
+
+else:
+
+send.console("(target to kick) is successfuly scanned");
+
+wait.secs(5)
