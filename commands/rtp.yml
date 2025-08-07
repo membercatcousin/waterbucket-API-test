@@ -1,0 +1,10 @@
+# RTP Configuration  
+cooldown: 60  
+name: randomteleport
+aliases: [rteleport, randomtp, rtp]
+worlds:  
+  allowed:  
+    - world  
+    - world_nether  
+  denied:  
+    - world_the_end  
