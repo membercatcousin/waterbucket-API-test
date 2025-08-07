@@ -1,0 +1,9 @@
+variables:
+
+_pos
+
+on_run:
+
+get.random.pos.for.var.pos(safe)
+
+/tp @s (pos)
