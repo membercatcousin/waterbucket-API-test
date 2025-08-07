@@ -1,0 +1,8 @@
+variables:
+
+
+
+on_run:
+
+/tellraw @a {"text":"plugin ran succesfully!"}
+
